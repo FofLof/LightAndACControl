@@ -193,12 +193,3 @@ void debugMode() {
   else if (firstComponent == "acOnOff") acOnOff->write(secondComponent.toInt());
   rxString = "";
 }
-
-/**
- * 0. Run the code that registers fingerprints
- * 1. Read fingerprint --> Returns a confidence level of how much it thinks a finger match is found --> check above threshold
- * 2. If fingerprint matches data set
- * 3. Pull down handle (set servo to a position)
- * 4. Wait 3 seconds
- * 5. Reset back to default position
-*/
